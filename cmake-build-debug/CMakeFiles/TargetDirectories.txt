@@ -1,0 +1,3 @@
+/home/stran/Documents/raytracing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/stran/Documents/raytracing/cmake-build-debug/CMakeFiles/raytracing.dir
+/home/stran/Documents/raytracing/cmake-build-debug/CMakeFiles/edit_cache.dir

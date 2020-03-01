@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="raytracing" targetName="raytracing" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="395c65fe-e05d-4401-b6dc-7175c6c83bdb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1YSERhImhhG5LPbMHC39eikt2O6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="raytracing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="raytracing" TARGET_NAME="raytracing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="raytracing" RUN_TARGET_NAME="raytracing">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="395c65fe-e05d-4401-b6dc-7175c6c83bdb" name="Default Changelist" comment="" />
+      <created>1582927588666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582927588666</updated>
+      <workItem from="1582927590541" duration="100000" />
+      <workItem from="1582927767090" duration="119000" />
+      <workItem from="1582927895013" duration="2845000" />
+      <workItem from="1583033008590" duration="876000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="688" y="357" width="600" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582928499267">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="688" y="357" width="600" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582928499267" />
+    <state width="1807" height="216" key="GridCell.Tab.0.bottom" timestamp="1582928614656">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="216" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582928614656" />
+    <state width="1807" height="216" key="GridCell.Tab.0.center" timestamp="1582928614656">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="216" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582928614656" />
+    <state width="1807" height="216" key="GridCell.Tab.0.left" timestamp="1582928614656">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="216" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582928614656" />
+    <state width="1807" height="216" key="GridCell.Tab.0.right" timestamp="1582928614656">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="216" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582928614656" />
+    <state x="514" y="179" key="SettingsEditor" timestamp="1582927746658">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="514" y="179" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582927746658" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582927593501">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582927593501" />
+  </component>
+</project>

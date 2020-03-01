@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stran/Documents/raytracing/main.cpp
+iostream
+-
+vec3.h
+/home/stran/Documents/raytracing/vec3.h
+
+/home/stran/Documents/raytracing/vec3.h
+cmath
+-
+cstdlib
+-
+iostream
+-
+
