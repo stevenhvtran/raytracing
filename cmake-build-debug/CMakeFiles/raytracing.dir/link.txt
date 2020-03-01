@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/raytracing.dir/main.cpp.o CMakeFiles/raytracing.dir/vec3.cpp.o  -o raytracing 
+/usr/bin/c++  -g   CMakeFiles/raytracing.dir/main.cpp.o  -o raytracing 

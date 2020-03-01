@@ -87,7 +87,7 @@
 		<Unit filename="/home/stran/Documents/raytracing/main.cpp">
 			<Option target="raytracing"/>
 		</Unit>
-		<Unit filename="/home/stran/Documents/raytracing/vec3.cpp">
+		<Unit filename="/home/stran/Documents/raytracing/ray.h">
 			<Option target="raytracing"/>
 		</Unit>
 		<Unit filename="/home/stran/Documents/raytracing/vec3.h">

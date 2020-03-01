@@ -3,7 +3,5 @@
 
 CMakeFiles/raytracing.dir/main.cpp.o
  /home/stran/Documents/raytracing/main.cpp
- /home/stran/Documents/raytracing/vec3.h
-CMakeFiles/raytracing.dir/vec3.cpp.o
- /home/stran/Documents/raytracing/vec3.cpp
+ /home/stran/Documents/raytracing/ray.h
  /home/stran/Documents/raytracing/vec3.h

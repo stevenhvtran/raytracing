@@ -9,6 +9,10 @@
 /home/stran/Documents/raytracing/main.cpp
 iostream
 -
+ray.h
+/home/stran/Documents/raytracing/ray.h
+
+/home/stran/Documents/raytracing/ray.h
 vec3.h
 /home/stran/Documents/raytracing/vec3.h
 

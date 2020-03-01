@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/stran/Documents/raytracing/main.cpp" "/home/stran/Documents/raytracing/cmake-build-debug/CMakeFiles/raytracing.dir/main.cpp.o"
-  "/home/stran/Documents/raytracing/vec3.cpp" "/home/stran/Documents/raytracing/cmake-build-debug/CMakeFiles/raytracing.dir/vec3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

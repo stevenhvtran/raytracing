@@ -11,7 +11,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="395c65fe-e05d-4401-b6dc-7175c6c83bdb" name="Default Changelist" comment="" />
+    <list default="true" id="395c65fe-e05d-4401-b6dc-7175c6c83bdb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/stran.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytracing" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytracing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytracing.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytracing.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vec3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vec3.h" beforeDir="false" afterPath="$PROJECT_DIR$/vec3.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +32,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YSERhImhhG5LPbMHC39eikt2O6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
@@ -52,7 +68,7 @@
       <workItem from="1582927590541" duration="100000" />
       <workItem from="1582927767090" duration="119000" />
       <workItem from="1582927895013" duration="2845000" />
-      <workItem from="1583033008590" duration="876000" />
+      <workItem from="1583033008590" duration="4835000" />
     </task>
     <servers />
   </component>
@@ -60,26 +76,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="588" y="210" key="#C/C++" timestamp="1583034445440">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="210" key="#C/C++/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583034445440" />
+    <state x="588" y="214" width="800" height="677" key="#Notifications" timestamp="1583035120073">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="214" width="800" height="677" key="#Notifications/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583035120073" />
     <state x="688" y="357" width="600" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582928499267">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="688" y="357" width="600" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582928499267" />
-    <state width="1807" height="216" key="GridCell.Tab.0.bottom" timestamp="1582928614656">
+    <state width="1807" height="212" key="GridCell.Tab.0.bottom" timestamp="1583038056893">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="216" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582928614656" />
-    <state width="1807" height="216" key="GridCell.Tab.0.center" timestamp="1582928614656">
+    <state width="1807" height="212" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583038056893" />
+    <state width="1807" height="212" key="GridCell.Tab.0.center" timestamp="1583038056893">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="216" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582928614656" />
-    <state width="1807" height="216" key="GridCell.Tab.0.left" timestamp="1582928614656">
+    <state width="1807" height="212" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583038056893" />
+    <state width="1807" height="212" key="GridCell.Tab.0.left" timestamp="1583038056893">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="216" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582928614656" />
-    <state width="1807" height="216" key="GridCell.Tab.0.right" timestamp="1582928614656">
+    <state width="1807" height="212" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583038056893" />
+    <state width="1807" height="212" key="GridCell.Tab.0.right" timestamp="1583038056893">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="216" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582928614656" />
+    <state width="1807" height="212" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583038056893" />
     <state x="514" y="179" key="SettingsEditor" timestamp="1582927746658">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
