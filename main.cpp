@@ -3,12 +3,11 @@
 
 vec3 colour(const ray& r) {
     vec3 unit_direction = unit_vector(r.direction());
-    float t = 0.5 * (unit_direction.y() + 1.0);
-
-
-//     std::cout << "\n" << unit_direction.y() << "\n";
-//     std::cout << "\n" << (1.0 - t) * vec3(1.0, 1.0, 1.0) + t * vec3(0.5, 0.7, 1.0) << "\n";
-    return (1.0 - t) * vec3(1.0, 1.0, 1.0) + t * vec3(0.5, 0.7, 1.0);
+    float standardised_y = 0.5 * (unit_direction.y() + 1);
+    vec3 base_gradient = (1 - standardised_y) * vec3(1, 1, 1);
+    vec3 rgb_max(0.5, 0.7, 1.0);
+    vec3 colour_overlay = standardised_y * rgb_max;
+    return base_gradient + colour_overlay;
 }
 
 int main() {
