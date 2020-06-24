@@ -12,19 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="395c65fe-e05d-4401-b6dc-7175c6c83bdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/camera.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytracing" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytracing" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytracing.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytracing.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/color.h" beforeDir="false" afterPath="$PROJECT_DIR$/color.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test3.ppm" beforeDir="false" afterPath="$PROJECT_DIR$/test3.ppm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utility.h" beforeDir="false" afterPath="$PROJECT_DIR$/utility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vec3.h" beforeDir="false" afterPath="$PROJECT_DIR$/vec3.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +68,8 @@
       <workItem from="1592802767927" duration="4063000" />
       <workItem from="1592868900993" duration="3957000" />
       <workItem from="1592961486798" duration="377000" />
-      <workItem from="1592961932037" duration="7293000" />
+      <workItem from="1592961932037" duration="7897000" />
+      <workItem from="1592985608749" duration="1037000" />
     </task>
     <servers />
   </component>
