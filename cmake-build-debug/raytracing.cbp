@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/stran/Documents/raytracing/camera.h">
+			<Option target="raytracing"/>
+		</Unit>
 		<Unit filename="/home/stran/Documents/raytracing/color.h">
 			<Option target="raytracing"/>
 		</Unit>

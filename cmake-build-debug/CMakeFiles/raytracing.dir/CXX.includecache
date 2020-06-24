@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/stran/Documents/raytracing/camera.h
+utility.h
+/home/stran/Documents/raytracing/utility.h
+
 /home/stran/Documents/raytracing/color.h
 vec3.h
 /home/stran/Documents/raytracing/vec3.h
@@ -33,6 +37,8 @@ sphere.h
 /home/stran/Documents/raytracing/sphere.h
 color.h
 /home/stran/Documents/raytracing/color.h
+camera.h
+/home/stran/Documents/raytracing/camera.h
 iostream
 -
 
@@ -52,6 +58,8 @@ cstdlib
 limits
 -
 memory
+-
+random
 -
 ray.h
 /home/stran/Documents/raytracing/ray.h

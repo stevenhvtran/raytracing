@@ -9,10 +9,19 @@
 
 #include <iostream>
 
-void write_color(std::ostream &out, color pixel_colour) {
-    out << static_cast<int>(255.99 * pixel_colour.x()) << ' '
-        << static_cast<int>(255.99 * pixel_colour.y()) << ' '
-        << static_cast<int>(255.99 * pixel_colour.z()) << '\n';
+void write_color(std::ostream &out, color pixel_colour, int samples_per_pixel) {
+    double r = pixel_colour.x();
+    double g = pixel_colour.y();
+    double b = pixel_colour.z();
+
+    double scale = 1.0 / samples_per_pixel;
+    r *= scale;
+    g *= scale;
+    b *= scale;
+
+    out << static_cast<int>(255.99 * clamp(r, 0.0, 0.999)) << ' '
+        << static_cast<int>(255.99 * clamp(g, 0.0, 0.999)) << ' '
+        << static_cast<int>(255.99 * clamp(b, 0.0, 0.999)) << '\n';
 }
 
 #endif //RAYTRACING_COLOR_H

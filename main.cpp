@@ -3,6 +3,7 @@
 #include "hittable_list.h"
 #include "sphere.h"
 #include "color.h"
+#include "camera.h"
 
 #include <iostream>
 
@@ -21,31 +22,32 @@ int main() {
     const double aspect_ratio = 16.0 / 9.0;
     const int image_width = 1920;
     int image_height = static_cast<int>(image_width / aspect_ratio);
+    int samples_per_pixel = 100;
+
     std::cout << "P3\n" << image_width << " " << image_height << "\n255\n";
 
-    double viewport_height = 9.0;
-    double viewport_width = 16.0;
-    double focal_length = 1.0;
-
-    point3 origin(0, 0, 0);
-    vec3 horizontal(viewport_width, 0, 0);
-    vec3 vertical(0, viewport_height, 0);
-    vec3 lower_left_corner = origin - horizontal/2 - vertical/2 - vec3(0, 0, focal_length);
-
+    camera cam;
     hittable_list world;
-    world.add(make_shared<sphere>(point3(0, 0, -1), 0.5));
-    world.add(make_shared<sphere>(point3(1, 1, -1), 0.5));
-    world.add(make_shared<sphere>(point3(-1, 1, -1), 0.5));
+    world.add(make_shared<sphere>(point3(0, 0, -3), 0.5));
+    world.add(make_shared<sphere>(point3(2, 0, -3), 0.5));
+    world.add(make_shared<sphere>(point3(-2, 0, -3), 0.5));
+    world.add(make_shared<sphere>(point3(0, 0, 0), 0.5));
     world.add(make_shared<sphere>(point3(0, -100.5, -1), 100));
 
     for (int j = image_height - 1; j >= 0; j--) {
         std::cerr << "\rScanlines remaining: " << j << ' ' << std::flush;
         for (int i = 0; i < image_width; i++) {
-            double u = double(i) / double(image_width);  // Fraction of distance across x of image
-            double v = double(j) / double(image_height);  // Fraction of distance across y of image
-            ray r(origin, lower_left_corner + u * horizontal + v * vertical);  // Line from origin to someplace
-            color pixel_color = ray_color(r, world);
-            write_color(std::cout, pixel_color);
+            color pixel_color(0, 0, 0);
+
+            // Sample 100 random points around the pixel and combine colours
+            for (int s = 0; s < samples_per_pixel; ++s) {
+                double u = (i + random_double(-1.0, 1.0)) / (image_width - 1);  // Fraction of distance across x of image
+                double v = (j + random_double(-1.0, 1.0)) / (image_height - 1);  // Fraction of distance across y of image
+                ray r = cam.get_ray(u, v);
+                pixel_color += ray_color(r, world);
+            }
+
+            write_color(std::cout, pixel_color, samples_per_pixel);
         }
     }
 
