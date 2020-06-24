@@ -25,7 +25,7 @@ int main() {
 
     double viewport_height = 9.0;
     double viewport_width = 16.0;
-    double focal_length = 2.0;
+    double focal_length = 1.0;
 
     point3 origin(0, 0, 0);
     vec3 horizontal(viewport_width, 0, 0);
@@ -34,6 +34,8 @@ int main() {
 
     hittable_list world;
     world.add(make_shared<sphere>(point3(0, 0, -1), 0.5));
+    world.add(make_shared<sphere>(point3(1, 1, -1), 0.5));
+    world.add(make_shared<sphere>(point3(-1, 1, -1), 0.5));
     world.add(make_shared<sphere>(point3(0, -100.5, -1), 100));
 
     for (int j = image_height - 1; j >= 0; j--) {
