@@ -84,10 +84,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/stran/Documents/raytracing/color.h">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="/home/stran/Documents/raytracing/hittable.h">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="/home/stran/Documents/raytracing/hittable_list.h">
+			<Option target="raytracing"/>
+		</Unit>
 		<Unit filename="/home/stran/Documents/raytracing/main.cpp">
 			<Option target="raytracing"/>
 		</Unit>
 		<Unit filename="/home/stran/Documents/raytracing/ray.h">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="/home/stran/Documents/raytracing/sphere.h">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="/home/stran/Documents/raytracing/utility.h">
 			<Option target="raytracing"/>
 		</Unit>
 		<Unit filename="/home/stran/Documents/raytracing/vec3.h">

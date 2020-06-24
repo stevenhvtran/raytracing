@@ -4,18 +4,26 @@
 
 #ifndef RAYTRACING_RAY_H
 #define RAYTRACING_RAY_H
+
 #include "vec3.h"
 
 class ray {
-public:
-    ray() = default;
-    ray(const vec3& origin, const vec3& direction) { _origin = origin; _direction = direction; }
-    vec3 origin() const { return _origin; }
-    vec3 direction() const { return _direction; }
-    vec3 point_at_parameter(float scalar) const { return _origin + scalar * _direction; }
+    public:
+        ray() = default;
 
-    vec3 _origin;
-    vec3 _direction;
+        ray(const point3 &origin, const vec3 &direction) {
+            orig = origin;
+            dir = direction;
+        }
+
+        point3 origin() const { return orig; }
+        vec3 direction() const { return dir; }
+
+        point3 at(double t) const { return orig + t * dir; }
+
+    public:
+        point3 orig;
+        vec3 dir;
 };
 
 #endif //RAYTRACING_RAY_H
