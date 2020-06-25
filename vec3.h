@@ -131,4 +131,11 @@ vec3 random_in_unit_sphere() {
     }
 }
 
+vec3 random_unit_vector() {
+    double a = random_double(0, 2 * pi);
+    double z = random_double(-1, 1);
+    double r = sqrt(1 - z*z);
+    return {r*cos(a), r*sin(a), z};
+}
+
 #endif //RAYTRACING_VEC3_H
