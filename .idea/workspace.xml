@@ -14,8 +14,15 @@
     <list default="true" id="395c65fe-e05d-4401-b6dc-7175c6c83bdb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytracing" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytracing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color.h" beforeDir="false" afterPath="$PROJECT_DIR$/color.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vec3.h" beforeDir="false" afterPath="$PROJECT_DIR$/vec3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sphere.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test3.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test4.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test5.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test6.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test7.ppm" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +76,7 @@
       <workItem from="1592868900993" duration="3957000" />
       <workItem from="1592961486798" duration="377000" />
       <workItem from="1592961932037" duration="7897000" />
-      <workItem from="1592985608749" duration="1037000" />
+      <workItem from="1592985608749" duration="3171000" />
     </task>
     <servers />
   </component>

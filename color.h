@@ -14,10 +14,11 @@ void write_color(std::ostream &out, color pixel_colour, int samples_per_pixel) {
     double g = pixel_colour.y();
     double b = pixel_colour.z();
 
+    // Divide the color total by the number of samples and gamma-correct for gamma=2.0
     double scale = 1.0 / samples_per_pixel;
-    r *= scale;
-    g *= scale;
-    b *= scale;
+    r = sqrt(scale * r);
+    g = sqrt(scale * g);
+    b = sqrt(scale * b);
 
     out << static_cast<int>(255.99 * clamp(r, 0.0, 0.999)) << ' '
         << static_cast<int>(255.99 * clamp(g, 0.0, 0.999)) << ' '
