@@ -135,7 +135,7 @@ vec3 random_unit_vector() {
     double a = random_double(0, 2 * pi);
     double z = random_double(-1, 1);
     double r = sqrt(1 - z*z);
-    return {r*cos(a), r*sin(a), z};
+    return {r*sin(a), z, r*cos(a)};
 }
 
 vec3 reflect(const vec3& v, const vec3& n) {
