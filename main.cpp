@@ -45,7 +45,7 @@ int main() {
     // Right sphere
     world.add(make_shared<sphere>(point3(1.5, 0, -3), 0.5, make_shared<metal>(color(0.75, 0.5, 0.5))));
     // Left sphere
-    world.add(make_shared<sphere>(point3(-1.5, 0, -3), 0.5, make_shared<metal>(color(0.5, 0.75, 0.5))));
+    world.add(make_shared<sphere>(point3(-1.5, 0, -3), 0.5, make_shared<fuzzy_metal>(color(0.5, 0.75, 0.5), 0.5)));
     // Large sphere
     world.add(make_shared<sphere>(point3(0, -100.5, -1), 100, make_shared<lambertian>(color(0.5, 0.5, 0.5))));
 
