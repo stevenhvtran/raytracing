@@ -6,6 +6,7 @@ CMakeFiles/raytracing.dir/main.cpp.o: ../color.h
 CMakeFiles/raytracing.dir/main.cpp.o: ../hittable.h
 CMakeFiles/raytracing.dir/main.cpp.o: ../hittable_list.h
 CMakeFiles/raytracing.dir/main.cpp.o: ../main.cpp
+CMakeFiles/raytracing.dir/main.cpp.o: ../material.h
 CMakeFiles/raytracing.dir/main.cpp.o: ../ray.h
 CMakeFiles/raytracing.dir/main.cpp.o: ../sphere.h
 CMakeFiles/raytracing.dir/main.cpp.o: ../utility.h

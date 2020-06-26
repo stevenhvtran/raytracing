@@ -15,10 +15,11 @@ color ray_color(const ray &r, const hittable &world, int depth) {
 
     hit_record rec;
     if (world.hit(r, 0.001, infinity, rec)) {
-        // Recurse by scattering the incident ray with Lambertian reflectance
-        point3 target = rec.p + rec.normal + random_unit_vector();
-        // The 0.5 here darkens any refracting ray, i.e. only absorbs 0.5 of the light off subsequent ray
-        return 0.5 * ray_color(ray(rec.p, target - rec.p), world, depth - 1);
+        ray scattered;
+        color attenuation;
+        if (rec.mat_ptr->scatter(r, rec, attenuation, scattered))
+            return attenuation * ray_color(scattered, world, depth-1);
+        return {0, 0, 0};
     }
     vec3 unit_direction = unit_vector(r.direction());
     // Rays that point more upwards have higher blue intensity
@@ -38,10 +39,15 @@ int main() {
 
     camera cam;
     hittable_list world;
-    world.add(make_shared<sphere>(point3(0, 0, -3), 0.5));
-    world.add(make_shared<sphere>(point3(2, 0, -3), 0.5));
-    world.add(make_shared<sphere>(point3(-2, 0, -3), 0.5));
-    world.add(make_shared<sphere>(point3(0, -100.5, -1), 100));
+
+    // Middle sphere
+    world.add(make_shared<sphere>(point3(0, 0, -3), 0.5, make_shared<lambertian>(color(0.5, 0.5, 0.75))));
+    // Right sphere
+    world.add(make_shared<sphere>(point3(1.5, 0, -3), 0.5, make_shared<metal>(color(0.75, 0.5, 0.5))));
+    // Left sphere
+    world.add(make_shared<sphere>(point3(-1.5, 0, -3), 0.5, make_shared<metal>(color(0.5, 0.75, 0.5))));
+    // Large sphere
+    world.add(make_shared<sphere>(point3(0, -100.5, -1), 100, make_shared<lambertian>(color(0.5, 0.5, 0.5))));
 
     for (int j = image_height - 1; j >= 0; j--) {
         std::cerr << "\rScanlines remaining: " << j << ' ' << std::flush;

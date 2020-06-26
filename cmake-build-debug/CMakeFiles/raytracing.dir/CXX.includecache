@@ -17,6 +17,8 @@ iostream
 -
 
 /home/stran/Documents/raytracing/hittable.h
+utility.h
+/home/stran/Documents/raytracing/utility.h
 ray.h
 /home/stran/Documents/raytracing/ray.h
 
@@ -42,11 +44,19 @@ camera.h
 iostream
 -
 
+/home/stran/Documents/raytracing/material.h
+ray.h
+/home/stran/Documents/raytracing/ray.h
+hittable.h
+/home/stran/Documents/raytracing/hittable.h
+
 /home/stran/Documents/raytracing/ray.h
 vec3.h
 /home/stran/Documents/raytracing/vec3.h
 
 /home/stran/Documents/raytracing/sphere.h
+utility
+-
 hittable.h
 /home/stran/Documents/raytracing/hittable.h
 
@@ -65,6 +75,8 @@ ray.h
 /home/stran/Documents/raytracing/ray.h
 vec3.h
 /home/stran/Documents/raytracing/vec3.h
+material.h
+/home/stran/Documents/raytracing/material.h
 
 /home/stran/Documents/raytracing/vec3.h
 cmath

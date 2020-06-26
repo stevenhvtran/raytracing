@@ -5,12 +5,15 @@
 #ifndef RAYTRACING_HITTABLE_H
 #define RAYTRACING_HITTABLE_H
 
+#include "utility.h"
 #include "ray.h"
+class material;
 
 struct hit_record {
     double t = 0;
     vec3 p;
     vec3 normal;
+    shared_ptr<material> mat_ptr;
     bool front_face;
 
     inline void set_face_normal(const ray& r, const vec3& outward_normal) {

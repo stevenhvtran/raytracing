@@ -7,6 +7,7 @@ CMakeFiles/raytracing.dir/main.cpp.o
  /home/stran/Documents/raytracing/hittable.h
  /home/stran/Documents/raytracing/hittable_list.h
  /home/stran/Documents/raytracing/main.cpp
+ /home/stran/Documents/raytracing/material.h
  /home/stran/Documents/raytracing/ray.h
  /home/stran/Documents/raytracing/sphere.h
  /home/stran/Documents/raytracing/utility.h

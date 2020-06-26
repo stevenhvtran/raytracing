@@ -138,4 +138,8 @@ vec3 random_unit_vector() {
     return {r*cos(a), r*sin(a), z};
 }
 
+vec3 reflect(const vec3& v, const vec3& n) {
+    return v - 2 * dot(v, n) * n;
+}
+
 #endif //RAYTRACING_VEC3_H
