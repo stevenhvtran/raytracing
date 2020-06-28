@@ -49,7 +49,7 @@ For the theory behind the renders and example code, see the link above.
 - Metals
   - Metals reflect light in a more direct way, we can trace these reflected rays to get metals now  
   !['Metals'](./renders_png/shadow_debug6.png)
-  - We can also make metals that aren't fully reflective by only reflecting rays some of the time, and refracting other times
+  - We can also make metals that aren't fully reflective by only reflecting rays directly some of the time, and reflecting them randomly other times
     !['Fuzzy Metal'](./renders_png/fuzzy_metal.png)
 - Glass
   - We can use light refraction properties to generate spheres that exhibit glass-like behaviour too
