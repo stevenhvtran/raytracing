@@ -12,12 +12,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="395c65fe-e05d-4401-b6dc-7175c6c83bdb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytracing" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytracing" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/material.h" beforeDir="false" afterPath="$PROJECT_DIR$/material.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vec3.h" beforeDir="false" afterPath="$PROJECT_DIR$/vec3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colored_metal_test.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colored_metal_test_no_aa.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colourful_sphere.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dielectric_spheres.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuse_sphere.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/focal_length.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzzy_metal.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamma_corrected_diffuse_sphere.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamma_corrected_diffuse_sphere_closer.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heavy_aa_spheres.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/high_colour_sphere.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hollow_sphere.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image2.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image3.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambertian_metal_with_proper_shadows.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambertian_sphere.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambertian_sphere_red.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambertian_sphere_red_background.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lerp.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less_dieletric_spheres.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/light_aa_spheres.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium_aa_spheres.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/metal_test.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/schlick_approx_dielectric_spheres.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow_acne_corrected_sphere.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow_debug.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow_debug2.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow_debug3.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow_debug4.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow_debug5.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow_debug6.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow_debug7.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow_debug8.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sphere_collision_outline.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_colouring_only.ppm" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +107,7 @@
       <workItem from="1593060738496" duration="5087000" />
       <workItem from="1593127966729" duration="9318000" />
       <workItem from="1593213563092" duration="3530000" />
-      <workItem from="1593307145813" duration="1472000" />
+      <workItem from="1593307145813" duration="2797000" />
     </task>
     <servers />
   </component>
