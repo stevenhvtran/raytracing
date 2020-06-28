@@ -1,5 +1,5 @@
 # Ray Tracing
-Based on the book [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
+Based on the book [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)  
 For the theory behind the renders and example code, see the link above.
 
 ## Pretty Renders I've Made
