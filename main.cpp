@@ -37,18 +37,18 @@ int main() {
 
     std::cout << "P3\n" << image_width << " " << image_height << "\n255\n";
 
-    camera cam;
+    camera cam(point3(-1, 1, 1), point3(0, 0, -1), vec3(0, 1, 0), 90, aspect_ratio);
     hittable_list world;
 
     // Middle sphere
-    world.add(make_shared<sphere>(point3(0, 0, -3), 0.5, make_shared<lambertian>(color(0.5, 0.5, 0.75))));
+    world.add(make_shared<sphere>(point3(0, 0, -1), 0.5, make_shared<lambertian>(color(0.5, 0.5, 0.75))));
     // Right sphere
-    world.add(make_shared<sphere>(point3(1.5, 0, -3), -0.45, make_shared<dielectric>(1.5)));
-    world.add(make_shared<sphere>(point3(1.5, 0, -3), 0.5, make_shared<dielectric>(1.5)));
+    world.add(make_shared<sphere>(point3(1.5, 0, -1), -0.45, make_shared<dielectric>(1.5)));
+    world.add(make_shared<sphere>(point3(1.5, 0, -1), 0.5, make_shared<dielectric>(1.5)));
     // Left sphere
-    world.add(make_shared<sphere>(point3(-1.5, 0, -3), 0.5, make_shared<fuzzy_metal>(color(0.5, 0.75, 0.5), 0.5)));
+    world.add(make_shared<sphere>(point3(-1.5, 0, -1), 0.5, make_shared<fuzzy_metal>(color(0.75, 0.5, 0.5), 0.5)));
     // Large sphere
-    world.add(make_shared<sphere>(point3(0, -100.5, -1), 100, make_shared<lambertian>(color(0.5, 0.5, 0.5))));
+    world.add(make_shared<sphere>(point3(0, -100.5, -1), 100, make_shared<lambertian>(color(0.6, 0.75, 0.25))));
 
     for (int j = image_height - 1; j >= 0; j--) {
         std::cerr << "\rScanlines remaining: " << j << ' ' << std::flush;
