@@ -37,7 +37,13 @@ int main() {
 
     std::cout << "P3\n" << image_width << " " << image_height << "\n255\n";
 
-    camera cam(point3(-1, 1, 1), point3(0, 0, -1), vec3(0, 1, 0), 90, aspect_ratio);
+    point3 lookfrom = point3(-1, 1, 1);
+    point3 lookat = point3(0, 0, -1);
+    vec3 vup(0, 1, 0);
+    double dist_to_focus = (lookfrom - lookat).length();
+    double aperture = 1.0;
+
+    camera cam(lookfrom, lookat, vup, 90, aspect_ratio, aperture, dist_to_focus);
     hittable_list world;
 
     // Middle sphere
