@@ -43,7 +43,8 @@ int main() {
     // Middle sphere
     world.add(make_shared<sphere>(point3(0, 0, -3), 0.5, make_shared<lambertian>(color(0.5, 0.5, 0.75))));
     // Right sphere
-    world.add(make_shared<sphere>(point3(1.5, 0, -3), 0.5, make_shared<metal>(color(0.75, 0.5, 0.5))));
+    world.add(make_shared<sphere>(point3(1.5, 0, -3), -0.45, make_shared<dielectric>(1.5)));
+    world.add(make_shared<sphere>(point3(1.5, 0, -3), 0.5, make_shared<dielectric>(1.5)));
     // Left sphere
     world.add(make_shared<sphere>(point3(-1.5, 0, -3), 0.5, make_shared<fuzzy_metal>(color(0.5, 0.75, 0.5), 0.5)));
     // Large sphere
