@@ -100,9 +100,9 @@ int main() {
             // Sample 100 random points around the pixel and combine colours
             for (int s = 0; s < samples_per_pixel; ++s) {
                 double u =
-                        (i + random_double(-1.0, 1.0)) / (image_width - 1);  // Fraction of distance across x of image
+                        (i + random_double()) / (image_width - 1);  // Fraction of distance across x of image
                 double v =
-                        (j + random_double(-1.0, 1.0)) / (image_height - 1);  // Fraction of distance across y of image
+                        (j + random_double()) / (image_height - 1);  // Fraction of distance across y of image
                 ray r = cam.get_ray(u, v);
                 pixel_color += ray_color(r, world, max_depth);
             }

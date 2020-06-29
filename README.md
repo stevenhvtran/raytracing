@@ -27,13 +27,8 @@ For the theory behind the renders and example code, see the link above.
   !['More spheres'](./renders_png/focal_length.png)
 - Anti-Aliasing
   - We can fix the jagged edges of the sphere by tracing more rays per pixel
-  - We pick points close to the ray and average them together to generate anti-aliased renders
-  - Light AA (Not as many rays per pixel):
-    !['Light AA'](./renders_png/light_aa_spheres.png)
-  - Medium AA (More rays per pixel, smoother):
-    !['Medium AA'](./renders_png/medium_aa_spheres.png)
-  - Heavy AA (Even more rays per pixel, almost blurry edges):
-    !['Heavy AA'](./renders_png/heavy_aa_spheres.png)
+  - We pick points within the subpixel and average them together to generate anti-aliased edges
+    !['Anti Aliasing'](./renders_png/light_aa_spheres.png)
 - Diffuse materials
   - We can model light bounces from our spheres to simulate light in real life
   - For diffuse materials, light bounces randomly with a probability distribution, generating a "matte" look
