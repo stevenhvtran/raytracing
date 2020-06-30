@@ -30,14 +30,20 @@ inline double degrees_to_radians(double degrees) {
 
 inline double random_double(double min, double max) {
     // Returns a random real in [min, max)
-    static std::uniform_real_distribution<double> distribution(min, max);
-    static std::mt19937 generator;
+    std::mt19937 generator;
+    std::uniform_real_distribution<double> distribution(min, max);
     return distribution(generator);
 }
 
 inline double random_double() {
     // Returns a random real in [0, 1).
     return random_double(0.0, 1.0);
+}
+
+inline int random_int(int min, int max) {
+    std::mt19937 generator;
+    std::uniform_int_distribution<int> distribution(min, max);
+    return distribution(generator);
 }
 
 inline double clamp(double x, double min, double max) {

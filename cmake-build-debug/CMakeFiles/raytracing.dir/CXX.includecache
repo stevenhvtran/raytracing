@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/stran/Documents/raytracing/axis_aligned_bounding_box.h
+utility.h
+/home/stran/Documents/raytracing/utility.h
+
+/home/stran/Documents/raytracing/bvh.h
+algorithm
+-
+hittable.h
+/home/stran/Documents/raytracing/hittable.h
+hittable_list.h
+/home/stran/Documents/raytracing/hittable_list.h
+
 /home/stran/Documents/raytracing/camera.h
 utility.h
 /home/stran/Documents/raytracing/utility.h
@@ -21,6 +33,8 @@ utility.h
 /home/stran/Documents/raytracing/utility.h
 ray.h
 /home/stran/Documents/raytracing/ray.h
+axis_aligned_bounding_box.h
+/home/stran/Documents/raytracing/axis_aligned_bounding_box.h
 
 /home/stran/Documents/raytracing/hittable_list.h
 hittable.h
@@ -41,6 +55,8 @@ color.h
 /home/stran/Documents/raytracing/color.h
 camera.h
 /home/stran/Documents/raytracing/camera.h
+bvh.h
+/home/stran/Documents/raytracing/bvh.h
 iostream
 -
 

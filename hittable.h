@@ -7,6 +7,8 @@
 
 #include "utility.h"
 #include "ray.h"
+#include "axis_aligned_bounding_box.h"
+
 class material;
 
 struct hit_record {
@@ -25,6 +27,7 @@ struct hit_record {
 class hittable {
 public:
     virtual bool hit(const ray& r, double t_min, double t_max, hit_record& rec) const = 0;
+    virtual bool bounding_box(aabb& output_box) const = 0;
 };
 
 #endif //RAYTRACING_HITTABLE_H
