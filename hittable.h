@@ -12,7 +12,7 @@
 class material;
 
 struct hit_record {
-    double t = 0;
+    double t = infinity;
     vec3 p;
     vec3 normal;
     shared_ptr<material> mat_ptr;

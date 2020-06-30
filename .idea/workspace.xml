@@ -12,16 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="395c65fe-e05d-4401-b6dc-7175c6c83bdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/axis_aligned_bounding_box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bvh.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/axis_aligned_bounding_box.h" beforeDir="false" afterPath="$PROJECT_DIR$/axis_aligned_bounding_box.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytracing" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytracing" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytracing.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytracing.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hittable.h" beforeDir="false" afterPath="$PROJECT_DIR$/hittable.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hittable_list.h" beforeDir="false" afterPath="$PROJECT_DIR$/hittable_list.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sphere.h" beforeDir="false" afterPath="$PROJECT_DIR$/sphere.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.ppm" beforeDir="false" afterPath="$PROJECT_DIR$/test2.ppm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utility.h" beforeDir="false" afterPath="$PROJECT_DIR$/utility.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +81,7 @@
       <workItem from="1593307145813" duration="15546000" />
       <workItem from="1593393470608" duration="748000" />
       <workItem from="1593417589874" duration="9499000" />
+      <workItem from="1593482243222" duration="3988000" />
     </task>
     <servers />
   </component>
@@ -90,42 +89,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="908" y="223" key="#xdebugger.evaluate" timestamp="1593483569840">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="908" y="223" key="#xdebugger.evaluate/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593483569840" />
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1593426026521">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593426026521" />
-    <state width="1807" height="271" key="GridCell.Tab.0.bottom" timestamp="1593426833303">
+    <state width="1807" height="322" key="GridCell.Tab.0.bottom" timestamp="1593484204521">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="271" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593426833303" />
-    <state width="1807" height="271" key="GridCell.Tab.0.center" timestamp="1593426833303">
+    <state width="1807" height="322" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
+    <state width="1807" height="322" key="GridCell.Tab.0.center" timestamp="1593484204521">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="271" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593426833303" />
-    <state width="1807" height="271" key="GridCell.Tab.0.left" timestamp="1593426833302">
+    <state width="1807" height="322" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
+    <state width="1807" height="322" key="GridCell.Tab.0.left" timestamp="1593484204521">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="271" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593426833302" />
-    <state width="1807" height="271" key="GridCell.Tab.0.right" timestamp="1593426833303">
+    <state width="1807" height="322" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
+    <state width="1807" height="322" key="GridCell.Tab.0.right" timestamp="1593484204521">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="271" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593426833303" />
-    <state width="1807" height="271" key="GridCell.Tab.1.bottom" timestamp="1593426833303">
+    <state width="1807" height="322" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
+    <state width="1807" height="322" key="GridCell.Tab.1.bottom" timestamp="1593484204521">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="271" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593426833303" />
-    <state width="1807" height="271" key="GridCell.Tab.1.center" timestamp="1593426833303">
+    <state width="1807" height="322" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
+    <state width="1807" height="322" key="GridCell.Tab.1.center" timestamp="1593484204521">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="271" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593426833303" />
-    <state width="1807" height="271" key="GridCell.Tab.1.left" timestamp="1593426833303">
+    <state width="1807" height="322" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
+    <state width="1807" height="322" key="GridCell.Tab.1.left" timestamp="1593484204521">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="271" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593426833303" />
-    <state width="1807" height="271" key="GridCell.Tab.1.right" timestamp="1593426833303">
+    <state width="1807" height="322" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
+    <state width="1807" height="322" key="GridCell.Tab.1.right" timestamp="1593484204521">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="271" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593426833303" />
+    <state width="1807" height="322" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1593426031383">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -153,10 +156,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/bvh.h</url>
-          <line>43</line>
-          <option name="timeStamp" value="4" />
+          <line>101</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/bvh.h</url>
+          <line>76</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="left" language="ObjectiveC" />
+        <watch expression="right" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
