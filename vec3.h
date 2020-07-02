@@ -9,7 +9,6 @@
 #include <cstdlib>
 #include <iostream>
 
-
 class vec3 {
 public:
     vec3() : e{0, 0, 0} {};

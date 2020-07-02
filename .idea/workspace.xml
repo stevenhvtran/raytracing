@@ -13,14 +13,28 @@
   <component name="ChangeListManager">
     <list default="true" id="395c65fe-e05d-4401-b6dc-7175c6c83bdb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/axis_aligned_bounding_box.h" beforeDir="false" afterPath="$PROJECT_DIR$/axis_aligned_bounding_box.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raytracing.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytracing" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytracing" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hittable.h" beforeDir="false" afterPath="$PROJECT_DIR$/hittable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytracing.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytracing.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color.h" beforeDir="false" afterPath="$PROJECT_DIR$/color.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sphere.h" beforeDir="false" afterPath="$PROJECT_DIR$/sphere.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.ppm" beforeDir="false" afterPath="$PROJECT_DIR$/test2.ppm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utility.h" beforeDir="false" afterPath="$PROJECT_DIR$/utility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vec3.h" beforeDir="false" afterPath="$PROJECT_DIR$/vec3.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +61,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.profiler" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.Unnamed">
+    <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="raytracing" TARGET_NAME="raytracing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="raytracing" RUN_TARGET_NAME="raytracing">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="raytracing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="raytracing" TARGET_NAME="raytracing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="raytracing" RUN_TARGET_NAME="raytracing">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="CMake Application.raytracing" />
+      <item itemvalue="CMake Application.Unnamed" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -81,7 +105,13 @@
       <workItem from="1593307145813" duration="15546000" />
       <workItem from="1593393470608" duration="748000" />
       <workItem from="1593417589874" duration="9499000" />
-      <workItem from="1593482243222" duration="3988000" />
+      <workItem from="1593482243222" duration="4359000" />
+      <workItem from="1593490115230" duration="1268000" />
+      <workItem from="1593491391049" duration="2179000" />
+      <workItem from="1593493577240" duration="686000" />
+      <workItem from="1593504240364" duration="866000" />
+      <workItem from="1593505113354" duration="1289000" />
+      <workItem from="1593651601355" duration="4764000" />
     </task>
     <servers />
   </component>
@@ -89,50 +119,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593505133913">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593505133913" />
     <state x="908" y="223" key="#xdebugger.evaluate" timestamp="1593483569840">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="908" y="223" key="#xdebugger.evaluate/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593483569840" />
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1593426026521">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1593493627030">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593426026521" />
-    <state width="1807" height="322" key="GridCell.Tab.0.bottom" timestamp="1593484204521">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593493627030" />
+    <state width="1807" height="160" key="GridCell.Tab.0.bottom" timestamp="1593654988565">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="322" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
-    <state width="1807" height="322" key="GridCell.Tab.0.center" timestamp="1593484204521">
+    <state width="1807" height="160" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593654988565" />
+    <state width="1807" height="160" key="GridCell.Tab.0.center" timestamp="1593654988565">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="322" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
-    <state width="1807" height="322" key="GridCell.Tab.0.left" timestamp="1593484204521">
+    <state width="1807" height="160" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593654988565" />
+    <state width="1807" height="160" key="GridCell.Tab.0.left" timestamp="1593654988565">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="322" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
-    <state width="1807" height="322" key="GridCell.Tab.0.right" timestamp="1593484204521">
+    <state width="1807" height="160" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593654988565" />
+    <state width="1807" height="160" key="GridCell.Tab.0.right" timestamp="1593654988565">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="322" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
-    <state width="1807" height="322" key="GridCell.Tab.1.bottom" timestamp="1593484204521">
+    <state width="1807" height="160" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593654988565" />
+    <state width="1807" height="160" key="GridCell.Tab.1.bottom" timestamp="1593654988565">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="322" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
-    <state width="1807" height="322" key="GridCell.Tab.1.center" timestamp="1593484204521">
+    <state width="1807" height="160" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593654988565" />
+    <state width="1807" height="160" key="GridCell.Tab.1.center" timestamp="1593654988565">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="322" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
-    <state width="1807" height="322" key="GridCell.Tab.1.left" timestamp="1593484204521">
+    <state width="1807" height="160" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593654988565" />
+    <state width="1807" height="160" key="GridCell.Tab.1.left" timestamp="1593654988565">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="322" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
-    <state width="1807" height="322" key="GridCell.Tab.1.right" timestamp="1593484204521">
+    <state width="1807" height="160" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593654988565" />
+    <state width="1807" height="160" key="GridCell.Tab.1.right" timestamp="1593654988565">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="322" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593484204521" />
-    <state x="482" y="187" key="SettingsEditor" timestamp="1593426031383">
+    <state width="1807" height="160" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593654988565" />
+    <state x="482" y="187" key="SettingsEditor" timestamp="1593505385993">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593426031383" />
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593505385993" />
     <state x="640" y="119" width="707" height="867" key="find.popup" timestamp="1593423919858">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -151,25 +185,14 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>18</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/bvh.h</url>
-          <line>101</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/bvh.h</url>
-          <line>76</line>
-          <option name="timeStamp" value="11" />
+          <line>97</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="left" language="ObjectiveC" />
-        <watch expression="right" language="ObjectiveC" />
+        <watch expression="data" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>

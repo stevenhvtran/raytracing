@@ -1,4 +1,4 @@
-/opt/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/stran/Documents/raytracing
+/opt/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/g++-10 -G "CodeBlocks - Unix Makefiles" /home/stran/Documents/raytracing
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/stran/Documents/raytracing/cmake-build-debug

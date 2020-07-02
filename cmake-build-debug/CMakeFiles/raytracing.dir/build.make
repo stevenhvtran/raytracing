@@ -60,15 +60,15 @@ include CMakeFiles/raytracing.dir/flags.make
 CMakeFiles/raytracing.dir/main.cpp.o: CMakeFiles/raytracing.dir/flags.make
 CMakeFiles/raytracing.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stran/Documents/raytracing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/raytracing.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracing.dir/main.cpp.o -c /home/stran/Documents/raytracing/main.cpp
+	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracing.dir/main.cpp.o -c /home/stran/Documents/raytracing/main.cpp
 
 CMakeFiles/raytracing.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracing.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stran/Documents/raytracing/main.cpp > CMakeFiles/raytracing.dir/main.cpp.i
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stran/Documents/raytracing/main.cpp > CMakeFiles/raytracing.dir/main.cpp.i
 
 CMakeFiles/raytracing.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracing.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stran/Documents/raytracing/main.cpp -o CMakeFiles/raytracing.dir/main.cpp.s
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stran/Documents/raytracing/main.cpp -o CMakeFiles/raytracing.dir/main.cpp.s
 
 # Object files for target raytracing
 raytracing_OBJECTS = \
