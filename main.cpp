@@ -9,6 +9,7 @@
 #include <iostream>
 #include <algorithm>
 #include <execution>
+#include <thread>
 
 color ray_color(const ray &r, const hittable &world, int depth) {
     if (depth <= 0)
@@ -20,7 +21,7 @@ color ray_color(const ray &r, const hittable &world, int depth) {
         ray scattered;
         color attenuation;
         if (rec.mat_ptr->scatter(r, rec, attenuation, scattered))
-            return attenuation * ray_color(scattered, world, depth-1);
+            return attenuation * ray_color(scattered, world, depth - 1);
         return {0, 0, 0};
     }
     vec3 unit_direction = unit_vector(r.direction());
@@ -30,7 +31,7 @@ color ray_color(const ray &r, const hittable &world, int depth) {
     return (1.0 - t) * color(1, 1, 1) + t * color(0.5, 0.7, 1.0);
 }
 
-void random_scene(hittable_list& world) {
+void random_scene(hittable_list &world) {
     shared_ptr<material> material1 = make_shared<dielectric>(1.5);
     world.add(make_shared<sphere>(point3(0, 1, 0), 1.0, material1));
 
@@ -41,11 +42,39 @@ void random_scene(hittable_list& world) {
     world.add(make_shared<sphere>(point3(4, 1, 0), 1.0, material3));
 }
 
+void
+compute_rows(std::vector<std::string> &data, camera &cam, bvh_node &world_tree, int rows_per_thread, int image_width,
+             int image_height, int samples_per_pixel, int max_depth, int n) {
+
+    std::string thread_data;
+
+    int rows_start = n * rows_per_thread;
+    int rows_end = (n + 1) * rows_per_thread;
+    for (int j = rows_end - 1; j >= rows_start; j--) {
+        for (int i = 0; i < image_width; i++) {
+            color pixel_color(0, 0, 0);
+
+            // Sample 100 random points around the pixel and combine colours
+            for (int s = 0; s < samples_per_pixel; ++s) {
+                double u =
+                        (i + random_double()) / (image_width - 1);  // Fraction of distance across x of image
+                double v =
+                        (j + random_double()) / (image_height - 1);  // Fraction of distance across y of image
+                ray r = cam.get_ray(u, v);
+                pixel_color += ray_color(r, world_tree, max_depth);
+            }
+
+            write_color(thread_data, pixel_color, samples_per_pixel);
+        }
+    }
+    data.at(n) = thread_data;
+}
+
 int main() {
     const double aspect_ratio = 16.0 / 9.0;
     const int image_width = 1920;
     const int image_height = static_cast<int>(image_width / aspect_ratio);
-    const int samples_per_pixel = 4;
+    const int samples_per_pixel = 10;
     const int max_depth = 50;
 
     std::cout << "P3\n" << image_width << " " << image_height << "\n255\n";
@@ -62,39 +91,23 @@ int main() {
     random_scene(world);
     bvh_node world_tree = bvh_node(world, 0.001, infinity);
 
-    const int threads = 1;
-    std::vector<int> n(threads);
+    const int num_threads = 12;
+    const int rows_per_thread = image_height / num_threads;
+
+    std::vector<int> n(num_threads);
     std::iota(std::begin(n), std::end(n), 0);
+    std::vector<std::string> data(num_threads);
 
-    std::vector<std::string> data(threads);
+    std::vector<std::thread> threads;
+    for (int i = 0; i < num_threads; i++) {
+        // Refactor this mess later
+        threads.push_back(std::thread(compute_rows, std::ref(data), std::ref(cam), std::ref(world_tree), rows_per_thread, image_width, image_height,
+                          samples_per_pixel, max_depth, i));
+    }
+    for (auto& t: threads) {
+        t.join();
+    }
 
-    const int rows_per_thread = image_height / threads;
-    std::transform(std::execution::par_unseq, std::begin(n), std::end(n), std::rbegin(data), [cam, world_tree](int &n) {
-        std::string thread_data;
-
-        int rows_start = n * rows_per_thread;
-        int rows_end = (n + 1) * rows_per_thread;
-        for (int j = rows_end - 1; j >= rows_start; j--) {
-            for (int i = 0; i < image_width; i++) {
-                color pixel_color(0, 0, 0);
-
-                // Sample 100 random points around the pixel and combine colours
-                for (int s = 0; s < samples_per_pixel; ++s) {
-                    double u =
-                            (i + random_double()) / (image_width - 1);  // Fraction of distance across x of image
-                    double v =
-                            (j + random_double()) / (image_height - 1);  // Fraction of distance across y of image
-                    ray r = cam.get_ray(u, v);
-                    pixel_color += ray_color(r, world_tree, max_depth);
-                }
-
-                write_color(thread_data, pixel_color, samples_per_pixel);
-            }
-        }
-
-        return thread_data;
-    });
-
-    for (auto & i : data)
-        std::cout << i;
+    for (auto i = data.rbegin(); i != data.rend(); ++i)
+        std::cout << *i;
 }

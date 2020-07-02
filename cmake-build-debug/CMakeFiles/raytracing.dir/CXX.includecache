@@ -61,6 +61,8 @@ algorithm
 -
 execution
 -
+thread
+-
 
 /home/stran/Documents/raytracing/material.h
 ray.h
